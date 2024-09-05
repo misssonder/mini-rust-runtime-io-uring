@@ -1,0 +1,14 @@
+[package]
+name = "mini-rust-runtime-io-uring"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+futures = "0.3.30"
+io-uring = "0.6"
+libc = "0.2.158"
+scoped-tls = "1.0.1"
+slab = "0.4.9"
+pin-utils = "0.1.0"
+waker-fn = "1.2.0"
+socket2 = {version = "0.5.7", features = ["all"]}
